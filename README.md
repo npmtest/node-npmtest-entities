@@ -1,6 +1,6 @@
 # npmtest-entities
 
-#### test coverage for  [entities (v1.1.1)](https://github.com/fb55/node-entities)  [![npm package](https://img.shields.io/npm/v/npmtest-entities.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-entities) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-entities.svg)](https://travis-ci.org/npmtest/node-npmtest-entities)
+#### basic test coverage for  [entities (v1.1.1)](https://github.com/fb55/node-entities)  [![npm package](https://img.shields.io/npm/v/npmtest-entities.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-entities) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-entities.svg)](https://travis-ci.org/npmtest/node-npmtest-entities)
 
 #### Encode & decode XML/HTML entities with ease
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-entities/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-entities/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-entities/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-entities/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-entities/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-entities/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-entities/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-entities/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-entities/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-entities/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-entities/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-entities/build/coverage.html/index.html)
 
@@ -102,7 +102,8 @@
         "lint": "jshint index.js lib/*.js test/*.js",
         "test": "mocha && npm run lint"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 
